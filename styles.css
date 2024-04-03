@@ -31,6 +31,7 @@ header {
     background-color: var(--color-fondo-primario);
     height: 120px;
     width: 100%;
+    z-index: 100;
 }
 
 .nav {
