@@ -1,9 +1,8 @@
 :root {
-    --color-primario: #03A64A;
-    --color-secundario: #A6A6A6;
-    --color-fondo-primario: #2A2740;
-    --color-fondo-secundario: #3F7355;
-    --color-texto: #FFFF83;
+    --color-primario: #15BCD8;
+    --color-fondo-primario: #06071B;
+    --color-fondo-secundario: #10374B;
+    --color-texto: #ffffff;
   }
 
 * {
@@ -42,17 +41,16 @@ header {
 }
 
 li {
-    color: #ffffff;
     background-color: var(--color-fondo-secundario);
     padding: 10px 15px;
     border-radius: 10px;
+    transition: box-shadow 0.3s ease;
 }
 
 .logo {
     width: 0;
     height: 30px;
     margin: 40px;
-    color: var(--color-primario);
     background-color: #ffffff;
     transform: scale(120%);
 }
@@ -92,18 +90,18 @@ h3 {
 
 h4 {
     font-size: 1.5em;
-    color: #ffffff;
+    color: var(--color-texto);
     text-align: center;
     margin: 20px;
 }
 
 a {
-    color: #ffffff;
+    color: #fff;
     font-size: 1.2em;
 }
 
 p {
-    color: #ffffff;
+    color: var(--color-texto);
     text-align: center;
     margin: 30px;
     font-size: 1.3em;
@@ -111,7 +109,7 @@ p {
 
 span {
     font-weight: bold;
-    color: var(--color-secundario);
+    color: var(--color-primario);
 }
 
 .seccion-3 {
@@ -160,9 +158,8 @@ footer p em {
 }
 
 li:hover {
-    background-color: var(--color-primario);
-    position: relative;
-    top: 2px;
+    box-shadow: 0px 5px 10px rgba(52, 152, 219, 0.7);
+    transform: scale(1.05);
 }
 
 #hamburguesa {
@@ -189,7 +186,7 @@ li:hover {
 
 .form-row input[type="text"],
 .form-row input[type="email"] {
-    background-color: #bdbdbd;
+    background-color: #d8d6d6;
     border: 0;
     border-radius: 6px;
     padding: 7px;
@@ -206,7 +203,7 @@ li:hover {
 .form-row textarea {
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 14px;
-    background-color: #bdbdbd;
+    background-color: #d8d6d6;
     border: 0;
     border-radius: 6px;
     min-height: 200px;
@@ -219,18 +216,20 @@ li:hover {
     font-size: 20px;
     width: 200px;
     font-weight: bold;
-    color: #ffffff;
+    color: var(--color-texto);
     background-color: var(--color-fondo-secundario);
     border: none;
     border-radius: 3px;
     padding: 10px 40px;
     border-radius: 10px;
     cursor: pointer;
+    transition: box-shadow 0.3s ease;
 }
 
 
 .form-row button:hover {
-    background-color: var(--color-primario);
+    box-shadow: 0px 5px 10px rgba(52, 152, 219, 0.7);
+    transform: scale(1.05);
 }
 
 
