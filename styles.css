@@ -11,7 +11,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: "Madimi One", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -111,6 +111,7 @@ p {
     text-align: center;
     margin: 30px;
     font-size: 1.3em;
+    font-family: "Raleway", sans-serif;
 }
 
 span {
@@ -178,11 +179,15 @@ footer {
 }
 
 footer p em {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .redes {
     margin-bottom: 40px;
+}
+
+.redes p {
+    margin-bottom: 0;
 }
 
 #hamburguesa {
