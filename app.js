@@ -1,18 +1,18 @@
 const tarjeta1 = {
     titulo: 'Viajar por el mundo',
-    imagen: 'img/viaje-mono.jpg',
+    imagen: 'img/little-monkey-traveling-the-world-simple-drawing-simple-strokes.jpeg',
     texto: 'Me encanta visitar nuevos lugares. Acá estoy en Cancún con mi esposa Mamona y mi hijo Chupito'
 }
 
 const tarjeta2 = {
     titulo: 'Robar cosas a los turistas',
-    imagen: 'img/botella-mono.jpg',
+    imagen: 'img/little-monkey-drinking-water-from-a-bottle-simple-drawing-simple-strokes.jpeg',
     texto: 'Me divierto sacandole las cosas a los turistas cuando se distraen. Acá estoy tomando agua mineral. ¡Mmmmm que rica!'
 }
 
 const tarjeta3 = {
     titulo: 'Ser muy travieso',
-    imagen: 'img/mono-moto.jpg',
+    imagen: 'img/little-monkey-on-a-motorcycle-simple-drawing-simple-strokes.jpeg',
     texto: 'Como en la selva no hay mucho para hacer, me pongo a andar en moto. ¡Qué jodón que soy!'
 }
 
