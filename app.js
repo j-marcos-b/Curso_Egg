@@ -1,7 +1,7 @@
 const tarjeta1 = {
     titulo: 'Viajar por el mundo',
     imagen: 'img/little-monkey-traveling-the-world-simple-drawing-simple-strokes.jpeg',
-    texto: 'Me encanta visitar nuevos lugares. Acá estoy en Cancún con mi esposa Mamona y mi hijo Chupito'
+    texto: 'Me encanta visitar nuevos lugares y hacer amistades. ¡Quiero viajar por todo el mundo!'
 }
 
 const tarjeta2 = {
