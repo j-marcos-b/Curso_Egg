@@ -1,6 +1,6 @@
 :root {
     --color-primario: #15BCD8;
-    --color-fondo-primario: #06071B;
+    --color-fondo-primario: #050716;
     --color-fondo-secundario: #10374B;
     --color-texto: #ffffff;
   }
@@ -72,7 +72,7 @@ li:hover {
 }
 
 .puchi-img {
-    width: 500px;
+    width: 400px;
     margin: 50px 50px 0 50px;
 }
 
